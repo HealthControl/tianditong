@@ -17,20 +17,44 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Exf-Br-zwa">
-                                <rect key="frame" x="67" y="589" width="46" height="30"/>
-                                <state key="normal" title="Button"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Exf-Br-zwa">
+                                <rect key="frame" x="0.0" y="589" width="125" height="30"/>
+                                <state key="normal" title="附近"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mYJ-9z-LEb">
-                                <rect key="frame" x="157" y="589" width="46" height="30"/>
-                                <state key="normal" title="Button"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mYJ-9z-LEb">
+                                <rect key="frame" x="125" y="589" width="125" height="30"/>
+                                <state key="normal" title="路线"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8fC-ys-4tf">
-                                <rect key="frame" x="270" y="589" width="46" height="30"/>
-                                <state key="normal" title="Button"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8fC-ys-4tf">
+                                <rect key="frame" x="250" y="589" width="125" height="33"/>
+                                <state key="normal" title="设置"/>
                             </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="请输入查询关键字" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="6Eh-ju-Zeo">
+                                <rect key="frame" x="15" y="89" width="345" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="8fC-ys-4tf" firstAttribute="width" secondItem="Exf-Br-zwa" secondAttribute="width" id="6vb-7e-1cA"/>
+                            <constraint firstItem="b4W-G9-bUr" firstAttribute="top" secondItem="mYJ-9z-LEb" secondAttribute="bottom" constant="48" id="7FA-ys-mdN"/>
+                            <constraint firstItem="6Eh-ju-Zeo" firstAttribute="centerX" secondItem="1af-z7-TAj" secondAttribute="centerX" id="7IS-0t-ymd"/>
+                            <constraint firstItem="6Eh-ju-Zeo" firstAttribute="top" secondItem="fhT-qd-mEm" secondAttribute="bottom" constant="25" id="CW1-L0-eu3"/>
+                            <constraint firstAttribute="trailing" secondItem="8fC-ys-4tf" secondAttribute="trailing" id="CaV-FR-lkF"/>
+                            <constraint firstItem="8fC-ys-4tf" firstAttribute="leading" secondItem="mYJ-9z-LEb" secondAttribute="trailing" id="Obf-6d-nHH"/>
+                            <constraint firstItem="mYJ-9z-LEb" firstAttribute="height" secondItem="Exf-Br-zwa" secondAttribute="height" id="SxU-BV-KWB"/>
+                            <constraint firstItem="mYJ-9z-LEb" firstAttribute="leading" secondItem="Exf-Br-zwa" secondAttribute="trailing" id="atA-OP-m5i"/>
+                            <constraint firstItem="b4W-G9-bUr" firstAttribute="top" secondItem="8fC-ys-4tf" secondAttribute="bottom" constant="45" id="iFK-QC-YOb"/>
+                            <constraint firstItem="6Eh-ju-Zeo" firstAttribute="leading" secondItem="1af-z7-TAj" secondAttribute="leading" constant="15" id="jfZ-ZK-5cs"/>
+                            <constraint firstItem="8fC-ys-4tf" firstAttribute="top" secondItem="fhT-qd-mEm" secondAttribute="bottom" constant="525" id="nhJ-zL-DBl"/>
+                            <constraint firstItem="Exf-Br-zwa" firstAttribute="leading" secondItem="1af-z7-TAj" secondAttribute="leading" id="pBn-KJ-57Y"/>
+                            <constraint firstItem="mYJ-9z-LEb" firstAttribute="width" secondItem="Exf-Br-zwa" secondAttribute="width" id="pmc-Om-HCa"/>
+                            <constraint firstItem="mYJ-9z-LEb" firstAttribute="top" secondItem="fhT-qd-mEm" secondAttribute="bottom" constant="525" id="xrP-rr-jVw"/>
+                            <constraint firstItem="8fC-ys-4tf" firstAttribute="height" secondItem="Exf-Br-zwa" secondAttribute="height" id="yZq-P2-ngB"/>
+                            <constraint firstItem="Exf-Br-zwa" firstAttribute="top" secondItem="fhT-qd-mEm" secondAttribute="bottom" constant="525" id="zAs-FV-3hz"/>
+                            <constraint firstAttribute="trailing" secondItem="6Eh-ju-Zeo" secondAttribute="trailing" constant="15" id="zx6-AH-w1f"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="PBo-ph-LpX"/>
                 </viewController>
