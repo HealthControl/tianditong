@@ -15,6 +15,17 @@
 		98F52E291C1FB039005C711F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98F52E271C1FB039005C711F /* LaunchScreen.storyboard */; };
 		98F52E341C1FB039005C711F /* TianditongTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 98F52E331C1FB039005C711F /* TianditongTests.m */; };
 		98F52E3F1C1FB039005C711F /* TianditongUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 98F52E3E1C1FB039005C711F /* TianditongUITests.m */; };
+		A9005E9E1C2645F60001E36C /* KBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9005E9D1C2645F60001E36C /* KBaseViewController.m */; };
+		A9005EA11C2646670001E36C /* NearByViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9005EA01C2646670001E36C /* NearByViewController.m */; };
+		A9005EA41C26468C0001E36C /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9005EA31C26468C0001E36C /* MapViewController.m */; };
+		A9005EA71C26478B0001E36C /* RouteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9005EA61C26478B0001E36C /* RouteViewController.m */; };
+		A9005EAA1C2652A60001E36C /* PositionSelectorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9005EA91C2652A60001E36C /* PositionSelectorViewController.m */; };
+		A9005EAD1C2654B00001E36C /* RouteDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9005EAC1C2654B00001E36C /* RouteDetailViewController.m */; };
+		A9F096511C26B1FD00BD7BB1 /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9F096501C26B1FD00BD7BB1 /* SettingViewController.m */; };
+		A9F096541C26B3E200BD7BB1 /* NearSearchResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9F096531C26B3E200BD7BB1 /* NearSearchResultViewController.m */; };
+		A9F096571C26C6B800BD7BB1 /* SwitchCityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9F096561C26C6B800BD7BB1 /* SwitchCityViewController.m */; };
+		A9F0965A1C26C71A00BD7BB1 /* DownLoadMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9F096591C26C71A00BD7BB1 /* DownLoadMapViewController.m */; };
+		A9F0965D1C26C74800BD7BB1 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9F0965C1C26C74800BD7BB1 /* AboutViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +62,28 @@
 		98F52E3A1C1FB039005C711F /* TianditongUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TianditongUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		98F52E3E1C1FB039005C711F /* TianditongUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TianditongUITests.m; sourceTree = "<group>"; };
 		98F52E401C1FB039005C711F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9005E9C1C2645F60001E36C /* KBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBaseViewController.h; sourceTree = "<group>"; };
+		A9005E9D1C2645F60001E36C /* KBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBaseViewController.m; sourceTree = "<group>"; };
+		A9005E9F1C2646670001E36C /* NearByViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NearByViewController.h; sourceTree = "<group>"; };
+		A9005EA01C2646670001E36C /* NearByViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NearByViewController.m; sourceTree = "<group>"; };
+		A9005EA21C26468C0001E36C /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		A9005EA31C26468C0001E36C /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		A9005EA51C26478B0001E36C /* RouteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RouteViewController.h; sourceTree = "<group>"; };
+		A9005EA61C26478B0001E36C /* RouteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RouteViewController.m; sourceTree = "<group>"; };
+		A9005EA81C2652A60001E36C /* PositionSelectorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PositionSelectorViewController.h; sourceTree = "<group>"; };
+		A9005EA91C2652A60001E36C /* PositionSelectorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PositionSelectorViewController.m; sourceTree = "<group>"; };
+		A9005EAB1C2654B00001E36C /* RouteDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RouteDetailViewController.h; sourceTree = "<group>"; };
+		A9005EAC1C2654B00001E36C /* RouteDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RouteDetailViewController.m; sourceTree = "<group>"; };
+		A9F0964F1C26B1FD00BD7BB1 /* SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
+		A9F096501C26B1FD00BD7BB1 /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
+		A9F096521C26B3E200BD7BB1 /* NearSearchResultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NearSearchResultViewController.h; sourceTree = "<group>"; };
+		A9F096531C26B3E200BD7BB1 /* NearSearchResultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NearSearchResultViewController.m; sourceTree = "<group>"; };
+		A9F096551C26C6B800BD7BB1 /* SwitchCityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwitchCityViewController.h; sourceTree = "<group>"; };
+		A9F096561C26C6B800BD7BB1 /* SwitchCityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwitchCityViewController.m; sourceTree = "<group>"; };
+		A9F096581C26C71A00BD7BB1 /* DownLoadMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DownLoadMapViewController.h; sourceTree = "<group>"; };
+		A9F096591C26C71A00BD7BB1 /* DownLoadMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DownLoadMapViewController.m; sourceTree = "<group>"; };
+		A9F0965B1C26C74800BD7BB1 /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
+		A9F0965C1C26C74800BD7BB1 /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +134,7 @@
 		98F52E181C1FB039005C711F /* Tianditong */ = {
 			isa = PBXGroup;
 			children = (
+				A9005E9B1C2645B80001E36C /* viewController */,
 				98F52E1C1C1FB039005C711F /* AppDelegate.h */,
 				98F52E1D1C1FB039005C711F /* AppDelegate.m */,
 				98F52E1F1C1FB039005C711F /* ViewController.h */,
@@ -138,6 +172,35 @@
 				98F52E401C1FB039005C711F /* Info.plist */,
 			);
 			path = TianditongUITests;
+			sourceTree = "<group>";
+		};
+		A9005E9B1C2645B80001E36C /* viewController */ = {
+			isa = PBXGroup;
+			children = (
+				A9005E9C1C2645F60001E36C /* KBaseViewController.h */,
+				A9005E9D1C2645F60001E36C /* KBaseViewController.m */,
+				A9005E9F1C2646670001E36C /* NearByViewController.h */,
+				A9005EA01C2646670001E36C /* NearByViewController.m */,
+				A9005EA21C26468C0001E36C /* MapViewController.h */,
+				A9005EA31C26468C0001E36C /* MapViewController.m */,
+				A9005EA51C26478B0001E36C /* RouteViewController.h */,
+				A9005EA61C26478B0001E36C /* RouteViewController.m */,
+				A9005EA81C2652A60001E36C /* PositionSelectorViewController.h */,
+				A9005EA91C2652A60001E36C /* PositionSelectorViewController.m */,
+				A9005EAB1C2654B00001E36C /* RouteDetailViewController.h */,
+				A9005EAC1C2654B00001E36C /* RouteDetailViewController.m */,
+				A9F0964F1C26B1FD00BD7BB1 /* SettingViewController.h */,
+				A9F096501C26B1FD00BD7BB1 /* SettingViewController.m */,
+				A9F096521C26B3E200BD7BB1 /* NearSearchResultViewController.h */,
+				A9F096531C26B3E200BD7BB1 /* NearSearchResultViewController.m */,
+				A9F096551C26C6B800BD7BB1 /* SwitchCityViewController.h */,
+				A9F096561C26C6B800BD7BB1 /* SwitchCityViewController.m */,
+				A9F096581C26C71A00BD7BB1 /* DownLoadMapViewController.h */,
+				A9F096591C26C71A00BD7BB1 /* DownLoadMapViewController.m */,
+				A9F0965B1C26C74800BD7BB1 /* AboutViewController.h */,
+				A9F0965C1C26C74800BD7BB1 /* AboutViewController.m */,
+			);
+			path = viewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,9 +333,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9005EAA1C2652A60001E36C /* PositionSelectorViewController.m in Sources */,
 				98F52E211C1FB039005C711F /* ViewController.m in Sources */,
+				A9005E9E1C2645F60001E36C /* KBaseViewController.m in Sources */,
 				98F52E1E1C1FB039005C711F /* AppDelegate.m in Sources */,
+				A9F0965A1C26C71A00BD7BB1 /* DownLoadMapViewController.m in Sources */,
+				A9005EA41C26468C0001E36C /* MapViewController.m in Sources */,
+				A9005EA11C2646670001E36C /* NearByViewController.m in Sources */,
+				A9005EA71C26478B0001E36C /* RouteViewController.m in Sources */,
+				A9F096571C26C6B800BD7BB1 /* SwitchCityViewController.m in Sources */,
 				98F52E1B1C1FB039005C711F /* main.m in Sources */,
+				A9F0965D1C26C74800BD7BB1 /* AboutViewController.m in Sources */,
+				A9005EAD1C2654B00001E36C /* RouteDetailViewController.m in Sources */,
+				A9F096541C26B3E200BD7BB1 /* NearSearchResultViewController.m in Sources */,
+				A9F096511C26B1FD00BD7BB1 /* SettingViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -496,6 +570,7 @@
 				98F52E451C1FB039005C711F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		98F52E461C1FB039005C711F /* Build configuration list for PBXNativeTarget "TianditongTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +579,7 @@
 				98F52E481C1FB039005C711F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		98F52E491C1FB039005C711F /* Build configuration list for PBXNativeTarget "TianditongUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +588,7 @@
 				98F52E4B1C1FB039005C711F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
