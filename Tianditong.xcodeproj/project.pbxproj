@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		920D0C7D09BCB61561579CDB /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6784185BFD9BA4D32ADCD4E4 /* libPods.a */; };
 		98F52E1B1C1FB039005C711F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 98F52E1A1C1FB039005C711F /* main.m */; };
 		98F52E1E1C1FB039005C711F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 98F52E1D1C1FB039005C711F /* AppDelegate.m */; };
 		98F52E211C1FB039005C711F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98F52E201C1FB039005C711F /* ViewController.m */; };
@@ -46,6 +47,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5038D10AEF635D3397B61673 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		6784185BFD9BA4D32ADCD4E4 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		98F52E161C1FB039005C711F /* Tianditong.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tianditong.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		98F52E1A1C1FB039005C711F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		98F52E1C1C1FB039005C711F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -84,6 +87,7 @@
 		A9F096591C26C71A00BD7BB1 /* DownLoadMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DownLoadMapViewController.m; sourceTree = "<group>"; };
 		A9F0965B1C26C74800BD7BB1 /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
 		A9F0965C1C26C74800BD7BB1 /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
+		DB9D3E6955A0DBC4322559DF /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +95,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				920D0C7D09BCB61561579CDB /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -111,6 +116,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		29C1096D271D3E366851839F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6784185BFD9BA4D32ADCD4E4 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		98F52E0D1C1FB039005C711F = {
 			isa = PBXGroup;
 			children = (
@@ -118,6 +131,8 @@
 				98F52E321C1FB039005C711F /* TianditongTests */,
 				98F52E3D1C1FB039005C711F /* TianditongUITests */,
 				98F52E171C1FB039005C711F /* Products */,
+				AD26C68C9D19BB937785CC2F /* Pods */,
+				29C1096D271D3E366851839F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -203,6 +218,15 @@
 			path = viewController;
 			sourceTree = "<group>";
 		};
+		AD26C68C9D19BB937785CC2F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DB9D3E6955A0DBC4322559DF /* Pods.debug.xcconfig */,
+				5038D10AEF635D3397B61673 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -210,9 +234,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 98F52E431C1FB039005C711F /* Build configuration list for PBXNativeTarget "Tianditong" */;
 			buildPhases = (
+				4B0A1DA1521DA57394621229 /* Check Pods Manifest.lock */,
 				98F52E121C1FB039005C711F /* Sources */,
 				98F52E131C1FB039005C711F /* Frameworks */,
 				98F52E141C1FB039005C711F /* Resources */,
+				0E8CCC63FBF815AC52B7F2BD /* Embed Pods Frameworks */,
+				7DFFA731EE1F4A84E5794733 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -327,6 +354,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0E8CCC63FBF815AC52B7F2BD /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4B0A1DA1521DA57394621229 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7DFFA731EE1F4A84E5794733 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		98F52E121C1FB039005C711F /* Sources */ = {
@@ -483,8 +558,10 @@
 		};
 		98F52E441C1FB039005C711F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB9D3E6955A0DBC4322559DF /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
 				INFOPLIST_FILE = Tianditong/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jiaozuo.tianditong.Tianditong;
@@ -494,8 +571,10 @@
 		};
 		98F52E451C1FB039005C711F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5038D10AEF635D3397B61673 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
 				INFOPLIST_FILE = Tianditong/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jiaozuo.tianditong.Tianditong;
